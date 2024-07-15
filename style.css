@@ -1,0 +1,17 @@
+#canvas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 640px;
+    height: 640px;
+}
+
+.square{
+    border: .5px solid #999;
+    box-sizing: border-box;
+}
+
+.square:hover{
+    background-color: black;
+    transition-duration: 400ms;
+}
